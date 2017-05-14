@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../css/caibuy.css">
+	<script src="../js/jquery-3.1.1.js"></script>
+	<script src="../js/require.js" data-main="../js/caibuy.js"></script>
+</head>
+<body>
+	<header id="header"></header>
+	<div id="car_content">
+	<div class="wrap">
+	<div class="topb"><h2>我的购物车</h2></div>
+	<div class="car_fboxt car_fd">
+	<span class="sp1"><input type="checkbox" name="checkbox" id="checkall" class="check">全选</span>
+	<span class="sp1 sp2">商品信息</span>
+	<span class="sp1 sp3">单价</span>
+	<span class="sp1 sp3">数量</span>
+	<span class="sp1 sp3">小计</span>
+	<span class="sp1 sp3">操作</span>
+	</div>
+	<div class="car_fboxt fb">
+	<span class="sp1"><input type="checkbox" name="checkbox" id="check1"> 速普自营仓</span>
+	</div>
+	<ul class="carul">
+	<li class="carli">
+	<span class="car_fgd">
+	<span class="car_iblock">
+	<input type="checkbox" name="checkbox" id="checkbox">
+	<a href="#" class="carib"><img src="../img/carig.jpg" class="ib1"></a>
+	</span>
+	<span class="car_iblock">
+	<span class="car_god"><a href="">这个是原本已经有的，下面那些才是cookie加入进来的</a></span>
+	</span>
+	</span>
+	<div class="jiage">12.8</div>
+	<div class="btnb">
+	<button id="btnjian" class="btnjn">-</button>
+	<input type="text" name="text" value="0" id="num1">
+	<button id="btnjia" class="btnjn">+</button></div>
+	<div class="jiage2">12.8</div>
+	<div class="caozuo"><a  herf="" class="del">删除</a><br><a href="#" class="shou">收藏</a></div>
+	</li>
+	</ul>
+	<form action="http://localhost/ajx/src/html/success.html" method="post">
+	<div class="fbox">
+	<input type="checkbox" name="checkbox" id="checkall" class="check">全选
+	<span class="spd1">x删除该商品</span>
+	<span class="spd2">x清除购物车</span>
+	<div class="formall">
+	<span class="numm">共<b class="bb">1</b>商品</span>
+	<span class="numm1">总计<b class="bb2">12.8</b></span>
+	</div>
+	<button class="submit" id="submit">提交</button>
+	</div>
+	</form>
+	</div>
+	</div>
+	<footer id="footer"></footer>
+</body>
+</html>

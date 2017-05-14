@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.container {
+  margin: 0 auto;
+  overflow: hidden; }
+
+.aco {
+  color: #333333; }
+
+#header {
+  width: 100%;
+  background: #FFF;
+  overflow: hidden; }
+  #header img {
+    position: relative;
+    width: 1911px;
+    left: 50%;
+    margin-left: -960px;
+    display: block;
+    overflow: hidden; }
+  #header .container {
+    height: 230px; }
+    #header .container .top {
+      height: 30px;
+      position: relative;
+      overflow: hidden;
+      background: #333333; }
+      #header .container .top .top1 {
+        float: left;
+        padding-left: 20px;
+        line-height: 30px;
+        color: #FFF;
+        font-size: 14px;
+        display: inline-block; }
+        #header .container .top .top1 span {
+          margin: 2px; }
+        #header .container .top .top1 a {
+          margin: 2px;
+          color: #e5004a; }
+      #header .container .top .top2 {
+        float: left;
+        position: absolute;
+        right: 0;
+        top: 0;
+        line-height: 30px;
+        margin-left: 360px;
+        display: inline-block; }
+        #header .container .top .top2 .ul1 li {
+          float: left;
+          width: 100px;
+          text-align: center;
+          font-size: 14px;
+          color: #FFF; }
+        #header .container .top .top2 .ul1 a {
+          color: #dbdbdb; }
+    #header .container .nav1 {
+      height: 120px;
+      padding-top: 36px;
+      margin-left: 40px;
+      width: 1200px;
+      overflow: hidden; }
+      #header .container .nav1 div {
+        float: left; }
+      #header .container .nav1 .logo {
+        background: url("../img/logo.jpg") no-repeat;
+        width: 200px;
+        height: 70px;
+        display: inline-block; }
+      #header .container .nav1 .soso {
+        margin-left: 60px;
+        height: 50px;
+        width: 612px; }
+        #header .container .nav1 .soso form {
+          height: 44px;
+          width: 612px;
+          overflow: hidden;
+          border: 4px solid #e5004a;
+          box-sizing: border-box; }
+          #header .container .nav1 .soso form label {
+            height: 40px; }
+            #header .container .nav1 .soso form label #text1 {
+              height: 40px;
+              width: 500px;
+              float: left;
+              line-height: 40px;
+              font-size: 16px; }
+          #header .container .nav1 .soso form button {
+            height: 40px;
+            width: 100px;
+            float: left;
+            line-height: 10px;
+            background: #e5004a;
+            border: 0px;
+            font-size: 18px;
+            color: #FFF; }
+      #header .container .nav1 .goucar {
+        margin-left: 140px;
+        width: 160px;
+        height: 44px;
+        background: #e5004a; }
+        #header .container .nav1 .goucar a {
+          display: block;
+          width: 158px;
+          height: 44px; }
+        #header .container .nav1 .goucar span {
+          width: 48px;
+          line-height: 44px;
+          height: 44px;
+          color: #FFF;
+          float: left; }
+        #header .container .nav1 .goucar .car1 {
+          background: url("../img/car.png") no-repeat;
+          margin-top: 4px;
+          margin-left: 2px;
+          height: 40px;
+          display: inline-block; }
+        #header .container .nav1 .goucar .sp2 {
+          font-size: 16px; }
+        #header .container .nav1 .goucar .carnum {
+          margin-left: 10px;
+          text-align: center; }
+    #header .container #nav2 #ul2 {
+      height: 38px;
+      overflow: hidden;
+      border-bottom: 2px solid #e5004a; }
+      #header .container #nav2 #ul2 .lb1, #header .container #nav2 #ul2 .lb2, #header .container #nav2 #ul2 .lb3, #header .container #nav2 #ul2 .lb4, #header .container #nav2 #ul2 .lb5, #header .container #nav2 #ul2 .lb6 {
+        margin-left: 40px;
+        height: 38px;
+        float: left;
+        text-align: center;
+        line-height: 38px;
+        overflow: hidden; }
+      #header .container #nav2 #ul2 .lb1 {
+        width: 210px;
+        background: #e5004a;
+        position: relative; }
+        #header .container #nav2 #ul2 .lb1 a {
+          color: #fff;
+          display: block; }
+        #header .container #nav2 #ul2 .lb1 #ull {
+          width: 210px;
+          height: 400px;
+          position: absolute;
+          top: 38px;
+          left: 0;
+          z-index: 100; }
+          #header .container #nav2 #ul2 .lb1 #ull .ll1 {
+            width: 210px;
+            height: 100px;
+            color: #000; }

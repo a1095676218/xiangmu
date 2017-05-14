@@ -1,0 +1,210 @@
+*{padding: 0;margin: 0}
+input{
+    margin-left: 12px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    &:hover{color:red};
+}
+.car_fboxt{
+	background-color: #fff;
+	position: relative;
+    padding: 4px 0;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+#car_content{
+	background: #f3f3f3;
+    padding-bottom: 70px;
+    .wrap{
+    width: 1180px;
+    margin: 0 auto;
+    	.topb{
+    		h2{
+		    color: #666;
+		    font-size:18px;
+    		}
+    	}
+    	.car_fboxt{
+    		.sp1{
+    			vertical-align: middle;
+    			cursor: pointer;
+    			display: inline-block;
+    			text-overflow: ellipsis;
+    			margin-right: 30px;
+    			width: 155px;
+    			font-size:14px;
+    			}
+    			.sp2{
+    				margin-right: 323px;
+    			}
+    			.sp3{
+    				width:122px;
+    				margin-right:0px;
+    			}
+    	}
+    .fb{
+    	background:#f3f3f3;
+    }
+    .carul,.carul1{
+   		background: #FFFFFF;
+    	padding: 10px;
+    	.carli{
+    		background-color: #fffbf0;
+    		border-bottom:1px solid #e9e9e9;
+            position: relative;
+            padding: 8px 0;
+            border-bottom: 1px solid #e9e9e9;
+    		.car_fgd{
+    			width: 634px;
+    			display: inline-block;
+    			.car_iblock{
+    				vertical-align: middle;
+    				display: inline-block;
+    				position: relative;
+                    overflow:hidden;
+                    #checkbox2{
+                        margin: 0 20px 0 28px;
+                        }
+    				.carib{
+    					width: 72px;
+					    height: 72px;
+					    overflow: hidden;
+                        vertical-align: middle;
+                        display: inline-block;
+                        .ib1{
+                            width: 72px;
+                            height: 72px;
+                        }
+                        .car_god{
+                                width: 320px;
+                                height: 48px;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                display: block;
+                             }
+
+    					}
+    				}
+    		}
+
+            .jiage{
+                width: 80px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                text-align: center;
+                vertical-align: middle;
+                display: inline-block;
+                }
+                .btnb{
+                    margin-left:24px;
+                    width:150px;
+                    overflow:hidden;
+                    display: inline-block;
+                    vertical-align: middle;
+                .btnjn {
+                    width: 30px;
+                    height: 36px;
+                    border: 1px solid #dddddd;
+                    background-color: #f9f9f9;
+                    float: left;
+                        }
+                #num1 {
+                        height: 34px;
+                        margin:0;
+                        width: 58px;
+                        border: none;
+                        border-top: 1px solid #dddddd;
+                        border-bottom: 1px solid #dddddd;
+                        line-height: 34px;
+                        white-space: nowrap;
+                        text-align: center;
+                        font-size: 16px;
+                        background: #fff;
+                        float: left;
+                    }
+                .btnjn {
+                    width: 30px;
+                    height: 36px;
+                    border: 1px solid #dddddd;
+                    background-color: #f9f9f9;
+                    float: left;
+                }
+            }
+            .jiage2{
+                width: 60px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                text-align: center;
+                vertical-align: middle;
+                display: inline-block;
+                }
+            .caozuo{
+            margin-left:66px;
+            width: 50px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: center;
+            vertical-align: middle;
+            display: inline-block;
+            }
+        
+    	}
+    	}
+        form{
+            display: block;
+           .fbox{
+            background-color: #FFFFFF;
+            padding: 4px 4px 4px 12px;
+            line-height: 32px;
+            margin: 35px 0;
+            #checkbox3{
+                vertical-align: middle;
+                cursor: pointer;
+                margin-left:0;
+                }
+                .spd1,.spd2{
+                    margin-left:30px;
+                    &:hover{color:red};
+                    font-size:14px;
+                }
+            .formall{
+                    width: 540px;
+                    margin-left:210px;
+                    display:inline-block;
+                    font-size: 18px;
+                    color: #000000;
+                    font-weight: bold;
+                    text-align: right;
+                    white-space: nowrap;
+                    .numm,.numm1{
+                    font-size: 18px;
+                    margin-right:50px;
+                    color: #000000;
+                    font-weight: bold;
+                    text-align: right;
+                    white-space: nowrap;
+                    .bb,.bb2{
+                        color:red;
+                    }
+                    }
+                        }
+                    #submit{
+                        font-size: 18px;
+                        color: #FFF;
+                        background-color: #e5004b;
+                        padding: 4px 30px;
+                        border: none;
+                        cursor: pointer;
+                        }    
+                    }
+                    }
+
+           } 
+        
+    
+}

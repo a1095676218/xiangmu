@@ -1,0 +1,196 @@
+body {
+  background: #F3F3F3; }
+
+.mypostion {
+  color: #666; }
+
+.active {
+  border: 1px solid red; }
+
+.chuxiao {
+  float: left;
+  width: 90px;
+  font-size: 13px;
+  color: #6c6c6c;
+  text-align: left;
+  white-space: nowrap;
+  margin-right: 15px; }
+
+.btnjn {
+  width: 30px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  background-color: #f9f9f9;
+  float: left; }
+
+.content {
+  width: 1200px;
+  margin: 0 auto; }
+
+#DTtop {
+  width: 100%; }
+  #DTtop .content .mypostion {
+    color: #666; }
+  #DTtop .content .mypostion1 {
+    color: #666; }
+  #DTtop .content .mypostion2 {
+    color: #666; }
+
+#dataillist {
+  width: 100%;
+  overflow: hidden; }
+  #dataillist .content {
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+    background: #FFF; }
+    #dataillist .content .f1 {
+      float: left;
+      overflow: hidden; }
+      #dataillist .content .f1 .zoom {
+        width: 100%;
+        border: none;
+        position: relative;
+        padding: 0px;
+        overflow: hidden;
+        cursor: crosshair;
+        margin: 0px;
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+        border: 1px solid #CCC;
+        box-sizing: border-box; }
+      #dataillist .content .f1 .bottomimg {
+        clear: both;
+        width: 422px; }
+        #dataillist .content .f1 .bottomimg .item {
+          float: left;
+          position: relative;
+          width: 385px;
+          height: 66px;
+          overflow: hidden; }
+          #dataillist .content .f1 .bottomimg .item .itemul {
+            position: absolute;
+            height: 66px;
+            overflow: hidden; }
+            #dataillist .content .f1 .bottomimg .item .itemul .itemli1 {
+              float: left;
+              width: 78px;
+              text-align: center;
+              overflow: hidden; }
+              #dataillist .content .f1 .bottomimg .item .itemul .itemli1 .itemimg {
+                padding: 2px;
+                width: 60px;
+                height: 60px; }
+    #dataillist .content .f2 {
+      margin-left: 25px;
+      width: 730px;
+      font-size: 13px;
+      float: left; }
+      #dataillist .content .f2 .f2top {
+        height: 50px; }
+        #dataillist .content .f2 .f2top h2 {
+          font-size: 18px;
+          color: #c4c4c4;
+          line-height: 50px;
+          float: left; }
+      #dataillist .content .f2 .f2zk {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      #dataillist .content .f2 .pricebox {
+        background: #f9f9f9;
+        padding: 10px 15px;
+        line-height: 36px;
+        overflow: hidden; }
+        #dataillist .content .f2 .pricebox .chuxiao {
+          float: left;
+          width: 90px;
+          font-size: 13px;
+          color: #6c6c6c;
+          text-align: left;
+          white-space: nowrap;
+          margin-right: 15px; }
+        #dataillist .content .f2 .pricebox .price_b {
+          float: left;
+          font-size: 24px;
+          color: #e5004b;
+          font-weight: bold;
+          width: 595px; }
+        #dataillist .content .f2 .pricebox .detail_ac {
+          line-height: 24px;
+          margin: 6px 0; }
+          #dataillist .content .f2 .pricebox .detail_ac .span1 {
+            background: #ff8a00;
+            padding: 1px 3px;
+            color: #FFFFFF;
+            margin-right: 2px; }
+      #dataillist .content .f2 .d_pd {
+        padding: 5px 15px;
+        width: 100%;
+        overflow: hidden; }
+        #dataillist .content .f2 .d_pd .chuxiao {
+          width: 90px;
+          font-size: 13px; }
+        #dataillist .content .f2 .d_pd .selectbox {
+          position: relative;
+          float: left;
+          margin-right: 10px; }
+          #dataillist .content .f2 .d_pd .selectbox select {
+            float: left; }
+          #dataillist .content .f2 .d_pd .selectbox .dingdan {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline-block;
+            height: 25px;
+            border: 1px solid #fff;
+            z-index: 999;
+            background: #fff;
+            position: relative;
+            overflow: hidden;
+            border-bottom: none; }
+          #dataillist .content .f2 .d_pd .selectbox .yuji {
+            float: left; }
+      #dataillist .content .f2 .dian {
+        padding: 5px 15px;
+        width: 100%;
+        overflow: hidden; }
+        #dataillist .content .f2 .dian #num1 {
+          height: 34px;
+          width: 58px;
+          border: none;
+          border-top: 1px solid #dddddd;
+          border-bottom: 1px solid #dddddd;
+          line-height: 34px;
+          white-space: nowrap;
+          text-align: center;
+          font-size: 16px;
+          background: #fff;
+          float: left; }
+      #dataillist .content .f2 .buy {
+        overflow: hidden; }
+        #dataillist .content .f2 .buy #carlist {
+          width: 138px;
+          background-color: #e5004b;
+          color: #FFF;
+          margin: 0 20px 0 120px;
+          font-size: 16px;
+          text-align: center;
+          display: block;
+          padding: 8px 28px;
+          border: 1px solid #e5004b;
+          float: left; }
+        #dataillist .content .f2 .buy #buy1 {
+          width: 138px;
+          text-align: center;
+          display: block;
+          padding: 8px 28px;
+          border: 1px solid #e5004b;
+          float: left;
+          background: #FFF; }
+          #dataillist .content .f2 .buy #buy1 .bbd {
+            text-decoration: none;
+            color: #e5004b;
+            font-size: 16px; }

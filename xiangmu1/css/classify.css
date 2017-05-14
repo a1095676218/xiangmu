@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.con {
+  width: 1200px;
+  margin: 0 auto; }
+  .con .bd {
+    padding: 10px 0;
+    border-bottom: #d6dbe1 1px solid;
+    overflow: hidden;
+    zoom: 1; }
+    .con .bd dl {
+      padding: 0 0 10px 10px;
+      overflow: hidden;
+      width: 100%;
+      zoom: 1; }
+      .con .bd dl dt {
+        display: block; }
+        .con .bd dl dt .bdtop {
+          padding: 1px 0px 2px 2px;
+          padding-left: 7px;
+          color: #e36c09;
+          font-weight: bold;
+          line-height: 28px; }
+      .con .bd dl dd {
+        float: left;
+        overflow: hidden;
+        zoom: 1; }
+        .con .bd dl dd ul {
+          margin-right: 0;
+          padding-right: 0;
+          width: 100%;
+          overflow: hidden;
+          zoom: 1; }
+          .con .bd dl dd ul li {
+            float: left;
+            height: 28px;
+            padding: 0 5px;
+            line-height: 28px; }
+            .con .bd dl dd ul li a {
+              color: #666;
+              text-decoration: none; }

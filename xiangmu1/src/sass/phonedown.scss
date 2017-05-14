@@ -1,0 +1,89 @@
+.phonelun{
+	ul{padding:0;margin:0;list-style:none;overflow:hidden;width: 6000px;
+	li{float:left;
+		}
+	}
+}
+
+#newlink1{
+	width:100%;
+	margin:0 auto;
+	height:140px;
+	h1{
+		float:left;
+		font-size:22px;
+		line-height:140px;
+		margin-left:40px;
+	}
+	span{
+		float:left;
+		font-size:14px;
+		line-height:140px;
+		margin-left:20px;
+		color:#E80046;
+	}
+}
+#phoneapp{
+	width:100%;
+	margin:0 auto;
+	height:240px;
+	overflow:hidden;
+	.android{
+		float:left;
+		margin-left:40px;
+		width:512px;
+		height:120px;
+		background:#F5F5F5;
+		overflow:hidden;
+		position: relative;
+		img{
+			float:left;
+		}
+		p{
+			font-size: 14px;
+    		color: #323232;
+    		margin:10px;
+		}
+		.down1{
+			display:block;
+			position: absolute;
+			right:0;
+			bottom:0;
+			width:100px;
+			line-height:36px;
+			text-align:center;
+			height:36px;
+			background:yellow;
+			color:#FFF;
+		}
+	}
+	.iphone{
+		float:left;
+		margin-left:40px;
+		width:512px;
+		height:120px;
+		background:#F5F5F5;
+		overflow:hidden;
+		position: relative;
+		img{
+			float:left;
+		}
+		p{
+			font-size: 14px;
+    		color: #323232;
+    		margin:10px;
+		}
+		.down1{
+			display:block;
+			position: absolute;
+			right:0;
+			bottom:0;
+			width:100px;
+			line-height:36px;
+			text-align:center;
+			height:36px;
+			background:yellow;
+			color:#FFF;
+		}
+	}
+}

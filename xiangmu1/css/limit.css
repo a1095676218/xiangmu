@@ -1,0 +1,81 @@
+#timelimitimg ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  width: 6000px; }
+  #timelimitimg ul li {
+    float: left; }
+
+#bigcontent {
+  width: 100%;
+  background: #f6f6f6;
+  margin: 0 auto; }
+  #bigcontent #timebuy {
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px; }
+    #bigcontent #timebuy span {
+      float: left;
+      background: url("../img/timeli.png") no-repeat;
+      width: 52px;
+      height: 55px; }
+    #bigcontent #timebuy h1 {
+      line-height: 60px;
+      font-size: 22px;
+      color: #666; }
+  #bigcontent #hotbuy {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    #bigcontent #hotbuy .btop {
+      height: 60px;
+      width: 760px;
+      background-color: #e9457f;
+      font-size: 18px;
+      line-height: 28px;
+      color: #f5fc53;
+      overflow: hidden;
+      float: left; }
+    #bigcontent #hotbuy h2 {
+      line-height: 60px;
+      float: left; }
+    #bigcontent #hotbuy span {
+      float: right;
+      line-height: 60px; }
+    #bigcontent #hotbuy .topbuy {
+      width: 760px;
+      height: 250px;
+      float: left; }
+      #bigcontent #hotbuy .topbuy h3 {
+        width: 120px;
+        font-size: 18px;
+        color: #e5004b;
+        padding-top: 38px;
+        padding-left: 20px;
+        max-height: 48px;
+        display: inline-block; }
+      #bigcontent #hotbuy .topbuy .main {
+        line-height: 40px;
+        margin-left: 20px;
+        width: 100px;
+        display: block; }
+      #bigcontent #hotbuy .topbuy .toplogo {
+        margin-left: 20px;
+        width: 100px;
+        display: block; }
+      #bigcontent #hotbuy .topbuy .hotimg {
+        width: 560px;
+        height: 230px;
+        float: right;
+        display: block; }
+    #bigcontent #hotbuy #side {
+      position: absolute;
+      width: 430px;
+      right: 0;
+      top: 0; }
+      #bigcontent #hotbuy #side ul {
+        overflow: hidden; }
+        #bigcontent #hotbuy #side ul li {
+          float: left; }

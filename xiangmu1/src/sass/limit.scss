@@ -1,0 +1,102 @@
+#timelimitimg{
+	ul{padding:0;margin:0;list-style:none;overflow:hidden;width: 6000px;
+	li{float:left;
+		}
+	}
+}
+#bigcontent{
+	width:100%;
+	background:#f6f6f6;
+	margin:0 auto;
+#timebuy{
+	width:1200px;
+	margin:0 auto;
+	height:80px;
+	span{
+	float:left;
+	background:url("../img/timeli.png") no-repeat;
+	width:52px;
+	height:55px;
+	}
+	h1{
+		line-height:60px;
+		font-size:22px;
+		color:#666;
+	}
+}
+	#hotbuy{
+		width:1200px;
+		margin:0 auto;
+		overflow:hidden;
+		position: relative;
+		.btop{
+		height:60px;
+		width:760px;
+		background-color: #e9457f;
+		font-size: 18px;
+		line-height: 28px;
+		color: #f5fc53;
+		overflow:hidden;
+		float:left;
+		}
+		h2{
+			line-height:60px;
+			float:left;
+		}
+		span{
+			float:right;
+			line-height:60px;
+		}
+		.topbuy{
+			width:760px;
+			height:250px;
+			float:left;
+			h3{
+			width:120px;
+			font-size: 18px;
+			color: #e5004b;
+			padding-top: 38px;
+			padding-left:20px;
+			max-height: 48px;
+			display:inline-block;
+			}
+			.main{
+				line-height:40px;
+				margin-left:20px;
+				width:100px;
+				display:block;
+			}
+			.toplogo{
+				margin-left:20px;
+				width:100px;
+				display:block;
+			}
+			.hotimg{
+				width:560px;
+				height:230px;
+				float:right;
+				display:block;
+			}
+			
+		}
+			#side{
+				position: absolute;
+				width:430px;
+				right:0;
+				top:0;
+				ul{
+					overflow:hidden;
+					li{
+				float: left;
+					}
+				}
+				}
+
+	}
+
+
+
+
+
+
+}

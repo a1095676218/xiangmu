@@ -1,0 +1,93 @@
+*{padding: 0;margin: 0;list-style:none;}
+#bigbenner{text-align:center;
+		width:1268px;
+		margin:0 auto;
+		height: 500px;}
+.baibuy{
+	margin: 20px auto;
+	padding: 10px 0;
+	overflow:hidden;
+	width:1100px;
+	li{
+	float: left;
+	width: 218px;
+
+	/* height: 328px; */
+	height: 325px;
+	border: 1px solid #CCCCCC;
+	margin: 26px;
+	}
+	.baibox{
+    display: block;
+    background-color: #F88CB7;
+    width: 210px;
+    /* height: 320px; */
+    height: 317px;
+    padding: 4px;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    .gdbox{
+	width: 210px;
+    /* height: 280px; */
+    height: 300px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    	.gdimg{
+    		width: 210px;
+    		height: 210px;
+    		position: relative;
+    		max-width: 100%;
+    		.ig1{
+    			height:210px;
+				width:210px;
+    		}
+    		.price_spread{
+			width: 77px;
+			height: 77px;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			.spread{
+			width: 42px;
+			position: absolute;
+			top: 15px;
+			right: 19px;
+			color: #fff;
+			font-size: 14px;
+			text-align: center;
+			}
+    		}
+    	}
+    	.gds{
+			border-top: 1px dashed #CCCCCC;
+			color: #333333;
+			width: 200px;
+			line-height: 20px;
+			height: 40px;
+			/* padding: 10px 5px 0 5px; */
+			padding: 5px 5px 0 5px;
+			overflow: hidden;
+			margin-top: 22px;
+			background-color: #FFFFFF;
+    	}
+    	.gprice{
+		display: inline-block;
+		border-top: 1px dashed #DDDDDD;
+		padding: 4px;
+		width: 202px;
+		background-color: #fff;
+		position: absolute;
+		bottom: 4px;
+		left: 4px;
+		z-index: 30;
+		text-align: left;
+		.span1{
+			color:#CB0101;
+			font-size: 18px;
+		}
+    	}
+    }
+	}
+}		

@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.container {
+  margin: 0 auto;
+  overflow: hidden; }
+
+#header {
+  height: 110px;
+  padding-top: 20px;
+  overflow: hidden;
+  box-sizing: border-box; }
+  #header .logo1 {
+    width: 200px;
+    height: 70px;
+    background: url("../img/logo.jpg") no-repeat;
+    margin-left: 10px;
+    display: inline-block;
+    float: left; }
+  #header .logo2 {
+    float: left;
+    width: 200px;
+    height: 70px;
+    line-height: 74px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 28px;
+    border-left: 1px solid #dbdbdb; }
+
+.login_content {
+  width: 100%;
+  background-color: #e5004b;
+  background: url(../img/login-bg.jpg) center center;
+  overflow: hidden;
+  height: 480px;
+  border-bottom: 1px solid #dbdbdb;
+  padding-top: 46px;
+  box-sizing: border-box; }
+  .login_content .login_d {
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /* padding: 25px 21px 18px 23px; */
+    border: 1px solid #dbdbdb;
+    float: right; }
+    .login_content .login_d h2 {
+      margin: 20px;
+      font-size: 18px;
+      color: #686565;
+      font-weight: 700; }
+    .login_content .login_d #form1 {
+      text-align: center; }
+      .login_content .login_d #form1 #username {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 12px 22px; }
+      .login_content .login_d #form1 #password {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 22px 22px; }
+      .login_content .login_d #form1 #btn1 {
+        display: block;
+        width: 295px;
+        background: #e5004b;
+        border: none;
+        cursor: pointer;
+        margin: 0 22px 0 22px;
+        color: #FFF;
+        line-height: 36px;
+        font-size: 20px; }
+  .login_content .reg_d {
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /* padding: 25px 21px 18px 23px; */
+    border: 1px solid #dbdbdb;
+    float: right;
+    display: none; }
+    .login_content .reg_d h2 {
+      margin: 20px;
+      font-size: 18px;
+      color: #686565;
+      font-weight: 700; }
+    .login_content .reg_d #form2 {
+      text-align: center; }
+      .login_content .reg_d #form2 #email {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 12px 22px; }
+      .login_content .reg_d #form2 #usernam {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 12px 22px; }
+      .login_content .reg_d #form2 #psw {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 12px 22px; }
+      .login_content .reg_d #form2 #repassword {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 12px 22px; }
+      .login_content .reg_d #form2 #phone {
+        display: block;
+        width: 295px;
+        margin: 12px 22px 22px 22px; }
+      .login_content .reg_d #form2 #submit {
+        display: block;
+        width: 295px;
+        background: #e5004b;
+        border: none;
+        cursor: pointer;
+        margin: 0 22px 0 22px;
+        color: #FFF;
+        line-height: 36px;
+        font-size: 20px; }
+
+#footer {
+  height: 110px;
+  padding-top: 20px;
+  overflow: hidden;
+  box-sizing: border-box; }
+  #footer #xinxi1 {
+    width: 100%;
+    text-align: center; }
+    #footer #xinxi1 p {
+      color: #666; }
+    #footer #xinxi1 .po2 {
+      background: url("../img/zhizhao.png") no-repeat;
+      width: 137px;
+      height: 47px;
+      margin: 0 auto; }

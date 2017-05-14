@@ -1,0 +1,159 @@
+*{padding:0;margin:0;text-decoration: none;list-style: none;}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header{
+	height:110px;
+	padding-top:20px;
+	overflow: hidden;
+	box-sizing:border-box;
+	.logo1{
+		
+		width:200px;
+		height:70px;
+		background:url("../img/logo.jpg") no-repeat;
+		margin-left:10px;
+		display: inline-block; 
+		float:left;
+		// border-right:1px solid #ccc;
+	}
+	.logo2{
+		float:left;
+		width:200px;
+		height:70px;
+		line-height:74px;
+		padding-left: 30px;
+		margin-top: 10px;
+   		margin-left: 35px;
+    	font-size: 28px;
+    	border-left: 1px solid #dbdbdb;
+	}
+}
+.login_content{
+    width: 100%;
+    background-color: #e5004b;
+    background: url(../img/login-bg.jpg) center center;
+    overflow: hidden;
+    height: 480px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-top:46px;
+    box-sizing:border-box;
+
+    //登录
+    .login_d{
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /* padding: 25px 21px 18px 23px; */
+    border: 1px solid #dbdbdb;
+    float:right;
+    h2{
+   	margin: 20px;
+    font-size: 18px;
+    color: #686565;
+    font-weight: 700;
+    }
+    #form1{
+    	text-align:center;
+    	#username{
+    	display: block;
+	    width: 295px;
+	    margin: 12px 22px 12px 22px;
+    	}
+    	#password{
+    	display: block;
+	    width: 295px;
+	    margin: 12px 22px 22px 22px;
+    	}
+    	#btn1{
+	   	display: block;
+	    width: 295px;
+	    background: #e5004b;
+	    border: none;
+	    cursor: pointer;
+	    margin: 0 22px 0 22px;
+	    color: #FFF;
+	    line-height: 36px;
+	    font-size: 20px;
+    	}
+    }
+}
+
+//注册
+	.reg_d{
+    margin-right: 45px;
+    width: 340px;
+    height: 390px;
+    background: #ffffff;
+    /* padding: 25px 21px 18px 23px; */
+    border: 1px solid #dbdbdb;
+    float:right;
+    display:none;
+    	h2{
+   			margin: 20px;
+    		font-size: 18px;
+    		color: #686565;
+    		font-weight: 700;
+    	}
+    	#form2{
+    		text-align:center;
+    		#email{
+    		display: block;
+	    	width: 295px;
+	    	margin: 12px 22px 12px 22px;
+    		}
+    		#usernam{
+    		display: block;
+	    	width: 295px;
+	    	margin: 12px 22px 12px 22px;
+    		}
+    		#psw{
+    		display: block;
+	    	width: 295px;
+	    	margin: 12px 22px 12px 22px;
+    		}
+    		#repassword{
+    		display: block;
+	    	width: 295px;
+	    	margin: 12px 22px 12px 22px;
+    		}
+    		#phone{
+    		display: block;
+	    	width: 295px;
+	    	margin: 12px 22px 22px 22px;
+    		}
+    		#submit{
+			display: block;
+	    width: 295px;
+	    background: #e5004b;
+	    border: none;
+	    cursor: pointer;
+	    margin: 0 22px 0 22px;
+	    color: #FFF;
+	    line-height: 36px;
+	    font-size: 20px;
+    		}
+		}
+	}
+}
+#footer{
+	height:110px;
+	padding-top:20px;
+	overflow: hidden;
+	box-sizing:border-box;
+	#xinxi1{
+		width:100%;
+		text-align:center;
+		p{
+			color:#666;
+		}
+		.po2{
+			background:url("../img/zhizhao.png") no-repeat;
+			width:137px;
+			height:47px;
+			margin:0 auto;
+		}
+	}
+}

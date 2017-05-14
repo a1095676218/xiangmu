@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+
+#bighubao {
+  width: 100%;
+  background: #f6f6f6; }
+  #bighubao .content {
+    width: 1200px;
+    margin: 0 auto; }
+    #bighubao .content #hbtop {
+      height: 76px;
+      overflow: hidden;
+      background: #FFF;
+      position: relative; }
+      #bighubao .content #hbtop .hb {
+        float: left;
+        margin-left: 10px;
+        display: inline-block; }
+      #bighubao .content #hbtop h4 {
+        float: left;
+        width: 104px;
+        line-height: 76px;
+        font-size: 16px;
+        color: #66667D;
+        margin-left: 100px; }
+      #bighubao .content #hbtop .pbuy {
+        position: absolute;
+        right: 218px;
+        top: 16px;
+        color: #66667D; }
+      #bighubao .content #hbtop .timeov1 {
+        position: absolute;
+        right: 218px;
+        top: 38px;
+        color: red;
+        font-size: 20px; }
+    #bighubao .content #hbbenner {
+      width: 1200px;
+      height: 356px; }
+    #bighubao .content .baibuy {
+      margin: 20px auto;
+      overflow: hidden;
+      width: 1100px; }
+    #bighubao .content .baibuy li {
+      float: left;
+      width: 218px;
+      /* height: 328px; */
+      height: 325px;
+      border: 1px solid #CCCCCC;
+      margin: 26px; }
+    #bighubao .content .baibuy .baibox {
+      display: block;
+      background-color: #CCCCCC;
+      width: 210px;
+      /* height: 320px; */
+      height: 317px;
+      padding: 4px;
+      text-decoration: none;
+      position: relative;
+      top: 0;
+      left: 0; }
+    #bighubao .content .baibuy .baibox .gdbox {
+      width: 210px;
+      /* height: 280px; */
+      height: 300px;
+      overflow: hidden;
+      background-color: #FFFFFF; }
+    #bighubao .content .baibuy .baibox .gdbox .gd {
+      width: 210px;
+      height: 210px;
+      position: relative;
+      max-width: 100%; }
+    #bighubao .content .baibuy .baibox .gdbox .gd .img1 {
+      height: 210px;
+      width: 210px; }
+    #bighubao .content .baibuy .baibox .gdbox .gd .price_spread {
+      width: 77px;
+      height: 77px;
+      position: absolute;
+      top: 0px;
+      right: 0px; }
+    #bighubao .content .baibuy .baibox .gdbox .gd .price_spread .spread {
+      width: 42px;
+      position: absolute;
+      top: 15px;
+      right: 19px;
+      color: #fff;
+      font-size: 14px;
+      text-align: center; }
+    #bighubao .content .baibuy .baibox .gdbox .gds {
+      border-top: 1px dashed #CCCCCC;
+      color: #333333;
+      width: 200px;
+      line-height: 20px;
+      height: 40px;
+      /* padding: 10px 5px 0 5px; */
+      padding: 5px 5px 0 5px;
+      overflow: hidden;
+      margin-top: 22px;
+      background-color: #FFFFFF; }
+    #bighubao .content .baibuy .baibox .gdbox .gprice {
+      display: inline-block;
+      border-top: 1px dashed #DDDDDD;
+      padding: 4px;
+      width: 202px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 4px;
+      left: 4px;
+      z-index: 30;
+      text-align: left; }
+    #bighubao .content .baibuy .baibox .gdbox .gprice .span1 {
+      color: #CB0101;
+      font-size: 18px; }

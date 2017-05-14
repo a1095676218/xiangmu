@@ -1,0 +1,185 @@
+*{padding:0;margin:0;text-decoration: none;list-style: none;}
+.container{
+
+	margin: 0 auto;
+	overflow: hidden;
+}
+.aco{color:#333333;}
+#header{
+	width: 100%; 
+	background: #FFF;
+	overflow: hidden;
+	img{
+    position: relative;
+    width: 1911px;
+    left: 50%;
+    margin-left: -960px;
+    display: block;
+    overflow: hidden;
+	}
+	.container{
+		height:230px;
+		.top{
+			height:30px;
+			position: relative;
+			overflow:hidden;
+			background:#333333;
+			.top1{
+				float:left;
+				padding-left:20px;
+				line-height:30px;
+				color:#FFF;
+				font-size:14px;
+				display:inline-block;
+				span{
+					margin:2px;
+				}
+				a{
+					margin:2px;
+					color:#e5004a;
+				}
+			}
+			.top2{float:left;
+				position: absolute;
+				right:0;
+				top:0;
+				line-height:30px;
+				margin-left:360px;
+				display:inline-block;
+				.ul1{
+					li{
+						float:left;
+						width:100px;
+						text-align: center;
+						font-size:14px;
+						color:#FFF;
+					}
+					a{
+						color:#dbdbdb;
+					}
+				}
+			}
+		}
+			.nav1{
+				height:120px;
+				padding-top:36px;
+				margin-left:40px;
+				width:1200px;
+				overflow:hidden;
+				div{
+					float:left;
+				}
+				.logo{
+					background:url("../img/logo.jpg") no-repeat;
+					width:200px;
+					height:70px;
+					display:inline-block;
+				}
+				.soso{
+					margin-left:60px;
+					height:50px;
+					width:612px;
+					form{
+						height:44px;
+						width:612px;
+						overflow: hidden;
+						border:4px solid #e5004a;
+						box-sizing: border-box;
+						label{
+							height:40px;
+						#text1{
+							height:40px;
+							width:500px;
+							float:left;
+							line-height:40px;
+							font-size:16px;
+						}
+							}
+						button{
+							height:40px;
+							width:100px;
+							float:left;
+							line-height:10px;
+							background:#e5004a;
+							border:0px;
+							font-size:18px;
+							color:#FFF;
+						}
+					}
+				}
+				.goucar{
+					margin-left:140px;
+					width:160px;
+					height:44px;
+					background:#e5004a;
+					a{
+						display:block;
+						width:158px;
+						height:44px;
+					}
+					span{
+						width:48px;
+						line-height:44px;
+						height:44px;
+						color:#FFF;
+						float:left;
+					}
+					.car1{
+						background:url("../img/car.png") no-repeat;
+						margin-top:4px;
+						margin-left:2px;
+						height:40px;
+						display: inline-block;
+					}
+					.sp2{
+						font-size:16px;
+					}
+					.carnum{
+						margin-left:10px;
+						text-align: center;
+					}
+				}
+			}
+			#nav2{
+				
+				#ul2{
+					height:38px;
+					overflow: hidden;
+					border-bottom:2px solid #e5004a;
+					.lb1,.lb2,.lb3,.lb4,.lb5,.lb6{
+						margin-left:40px;
+						height:38px;
+						float:left;
+						text-align:center;
+						line-height:38px;
+						overflow: hidden;
+					}
+					
+					.lb1{
+						width:210px;
+						background:#e5004a;
+						position: relative;
+						a{
+							color:#fff;
+							display:block;
+						}
+						#ull{
+							width:210px;
+							height:400px;
+							position: absolute;
+							top:38px;
+							left:0;
+							z-index:100; 
+							.ll1{
+								
+								width:210px;
+								height:100px;
+								color:#000;
+							}
+						}
+					}
+					
+				}
+			}
+	}
+}

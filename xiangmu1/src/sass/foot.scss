@@ -1,0 +1,76 @@
+*{padding:0;margin:0;text-decoration: none;list-style: none;}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer{
+	width: 100%; 
+	background: #FFF;
+	overflow: hidden;
+	z-index: 99999;
+	#server1{
+		width:100%;
+		background:#E5004B;
+	}
+	img{
+    position: relative;
+    width: 1260px;
+    left: 50%;
+    margin-left: -634px;
+    display: block;
+    overflow: hidden;
+	}
+	.con{
+	width:100%;
+	text-align:center;
+	background:#333333;
+	}
+	.server2{
+		height:148px;
+		width:900px;
+		width: 1100px;
+    	margin: auto;
+		background:#333333;
+		ul{
+			padding-top:4px;
+			float:left;
+			height:142px;
+			width:150px;
+			text-align:center;
+			h5{
+				line-height:30px;
+				font-size:18px;
+				color:#dbdbdb;
+			}
+			li{
+				a{
+				line-height:32px;
+				color:#666;
+				&:hover{color:#E5004B};
+				}
+				
+			}
+		}
+		#erweima{
+			.po1{
+				background:url("../img/erweima.jpg") no-repeat;
+				width:108px;
+				height:108px;
+			}
+		} 
+	}
+	#xinxi1{
+		width:100%;
+		text-align:center;
+		background:#333333;
+		p{
+			color:#666;
+		}
+		.po2{
+			background:url("../img/zhizhao.png") no-repeat;
+			width:137px;
+			height:47px;
+			margin:0 auto;
+		}
+	}
+}

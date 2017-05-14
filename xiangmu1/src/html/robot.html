@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	ul{list-style: none;padding:0;margin:0;}
+	.msg-list{width:600px;margin:0 auto;}
+	.msg-list ul{padding:10px;min-height:200px;overflow:hidden;border:1px solid #ddd;}
+	.msg-list li{float:left;clear:both;margin:10px 0;padding:5px;line-height:2;border-radius:5px;background-color:#efefef;}
+	.msg-list li.active{float:right;background-color:#fc0;color:#fff;}
+	.msg-list textarea{display:block;min-height:50px;margin:10px 0;width:100%;box-sizing: border-box;}
+	</style>
+	<script src="../js/root.js"></script>
+	<script src="../js/jquery-3.1.1.js"></script>
+	<script src="../js/require.js" data-main="../js/timelimit.js"></script>
+</head>
+<body>
+<header id="header"></header>
+<div id="autoApply" class="msg-list">
+		<ul>
+		</ul>
+		<textarea></textarea>
+		<button>提交</button>
+	</div>
+	<h2>自动回答客服</h2>
+    <div class="content">
+        <h4>你可以：</h4>
+        <ol>
+            <li>点击按钮发送信息</li>
+            <li>ctrl+回车发送消息</li>
+            <li>根据输入的信息，机器人延迟1秒做出响应回答
+				响应消息如下：
+				<p>你好 ==> 吼</p>
+				<p>在吗 ==> 在的</p>
+				<p>约吗 ==> 不闲聊，直接约</p>
+				<p>我有问题 ==> 如有问题请自行百度或者400-618-0055联系我们</p>
+				<p>其他任意消息 ==> 你说什么？风太大，我听不见~~</p>
+            </li>
+        </ol>
+    </div>
+    <footer id="footer"></footer>
+</body>
+</html>

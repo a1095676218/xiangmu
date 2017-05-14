@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+input {
+  margin-left: 12px; }
+  
+.car_fboxt {
+  background-color: #fff;
+  position: relative;
+  padding: 4px 0;
+  overflow: hidden;
+  box-sizing: border-box; }
+
+#car_content {
+  background: #f3f3f3;
+  padding-bottom: 70px; }
+  #car_content .wrap {
+    width: 1180px;
+    margin: 0 auto; }
+    #car_content .wrap .topb h2 {
+      color: #666;
+      font-size: 18px; }
+    #car_content .wrap .car_fboxt .sp1 {
+      vertical-align: middle;
+      cursor: pointer;
+      display: inline-block;
+      text-overflow: ellipsis;
+      margin-right: 30px;
+      width: 155px;
+      font-size: 14px; }
+    #car_content .wrap .car_fboxt .sp2 {
+      margin-right: 323px; }
+    #car_content .wrap .car_fboxt .sp3 {
+      width: 122px;
+      margin-right: 0px; }
+    #car_content .wrap .fb {
+      background: #f3f3f3; }
+    #car_content .wrap .carul {
+      background: #FFFFFF;
+      padding: 10px; }
+      #car_content .wrap .carul .carli {
+        background-color: #fffbf0;
+        border-bottom: 1px solid #e9e9e9; }
+        #car_content .wrap .carul .carli .car_fgd {
+          width: 476px;
+          display: inline-block; }
+          #car_content .wrap .carul .carli .car_fgd .car_iblock {
+            vertical-align: middle;
+            display: inline-block;
+            position: relative;
+            overflow: hidden; }
+            #car_content .wrap .carul .carli .car_fgd .car_iblock #checkbox2 {
+              margin: 0 20px 0 28px; }
+            #car_content .wrap .carul .carli .car_fgd .car_iblock .carib {
+              width: 72px;
+              height: 72px;
+              overflow: hidden;
+              vertical-align: middle;
+              display: inline-block; }
